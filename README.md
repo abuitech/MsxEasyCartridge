@@ -1,4 +1,4 @@
-![MsxEasyCartridge](Images/EasyCartridge.jpg)
+![MsxEasyCartridge](Images/EasyCartridge_working_progress.jpg)
 # MsxEasyCartridge (Work in progress)
 Msx Easy Cartridge is an user friendly cartridge linker for MSX : it allows to run MSX cartridge rom up to 128Ko.
 It is based on a Rasberry Pi pico with 14Mo built in flash memory and is made as easy to use with a built-in cartridges browser.
