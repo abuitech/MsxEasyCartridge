@@ -11,7 +11,7 @@ It is based on a Rasberry Pi pico with 14Mo built in flash memory and is made as
   * Konami 4 mapper cartridge
   * Konami 5 mapper cartridge **with SCC emulation**
 * 64Ko RAM extension
-* 64Ko Mapper RAM extension
+* 128Ko Mapper RAM extension
 * SCC without ROM cartridge emulation
 * long file / directory name is supported
 ## Limitations
