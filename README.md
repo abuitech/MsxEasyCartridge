@@ -91,5 +91,5 @@ This function emulate a 128kB mapped RAM expansion. It adds 128kB RAM to the MSX
 Exit the ROM Browser and go to MSX Basic.
 ### Help screen
 ![Game launch screen](Images/RomBrowser/RomBrowser_Help.jpg)
-Help screen display buttons and keys shortcuts.
+Help screen displays buttons and keys shortcuts.
 
