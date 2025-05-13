@@ -40,6 +40,7 @@ At startup of the MSX with Easy Cartridge plugged in, the Rom Browser is launche
 ### Main screen
 ![Main ROM Browser screen](Images/RomBrowser/RomBrowser_RootFolder.jpg)
 Here is the main screen of the ROM Browser : it displays the content of the root folder of the build in flash memory where your roms are copied.
+![Main ROM Browser screen](Images/RomBrowser/RomBrowser_RomFiles.jpg)
 You can use the joystick or arrow keys to navigate in the files/folders list.
 * Joystick up and down or [Up] and [Down] keys to go up and down in the list
 * Joystick left and right or [Left] and [Right] keys to go to next or previous page in the list.
