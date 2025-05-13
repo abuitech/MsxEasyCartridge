@@ -35,10 +35,10 @@ It is based on a Rasberry Pi pico with 14Mo built in flash memory and is made as
 6. Unmounting (or ejecting) the drive "MSXEASYCART" and disconnect the cartridge from the PC.
 ## The ROM Browser
 ### Splash screen
-![Splash screen](Images/RomBrowser_SplashScreen.jpg)
+![Splash screen](Images/RomBrowser/RomBrowser_SplashScreen.jpg)
 At startup of the MSX with Easy Cartridge plugged in, the Rom Browser is launched. This animated splash screen is displayed and automatically closed at the end (but you can skip it by pressing the joystick button or [Space] bar);
 ### Main screen
-![Main ROM Browser screen](Images/RomBrowser_RootFolder.jpg)
+![Main ROM Browser screen](Images/RomBrowser/RomBrowser_RootFolder.jpg)
 Here is the main screen of the ROM Browser : it displays the content of the root folder of the build in flash memory where your roms are copied.
 You can use the joystick or arrow keys to navigate in the files/folders list.
 * Joystick up and down or [Up] and [Down] keys to go up and down in the list
@@ -47,7 +47,7 @@ You can press the joystick button 1 or [Space] bar to enter into a folder or to 
 To go back to the parent folder or to a previous screen you can press the joystick button 2 or [Backspace] key.
 You can as well to back to the parent folder by selecting the special file named "..".
 ### Game launch screen
-![Game launch screen](Images/RomBrowser_GameLaunch.jpg)
+![Game launch screen](Images/RomBrowser/RomBrowser_GameLaunch.jpg)
 Game launch screen displays some information and parameters you can modify before starting the selected game.
 * ROM type : the cartridge ROM type
 * Init Addr : ROM start address
@@ -70,7 +70,7 @@ It's the rom start address. It's just for information.
 * Start : to start the game
 * Start everytime : to start the game but when you shutdown the MSX and restart it, the selected game will be automatically launch again. Easy Cartridge acts as it a simple cartridge game. To go back to the ROM Browser, you have to pressed the 'Restore' button on the top-right corner of the cartridge and keep it pressed while restarting the MSX.
 ### Options screen
-![Game launch screen](Images/RomBrowser_AdvOptions.jpg)
+![Game launch screen](Images/RomBrowser/RomBrowser_AdvOptions.jpg)
 In this screen you can access to other functionalities of Easy Cartridges
 * FM Pana Amusement Cartridge
 * Scc only (no game)
@@ -89,6 +89,6 @@ This function emulate a 128kB mapped RAM expansion. It adds 128kB RAM to the MSX
 #### Exit to BASIC
 Exit the ROM Browser and go to MSX Basic.
 ### Help screen
-![Game launch screen](Images/RomBrowser_Help.jpg)
+![Game launch screen](Images/RomBrowser/RomBrowser_Help.jpg)
 Help screen display buttons and keys shortcuts.
 
