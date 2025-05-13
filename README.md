@@ -82,11 +82,11 @@ In this screen you can access to other functionalities of Easy Cartridges
 This function is under developpement and is not working.
 Easy Cartridge emulates the FM Pana Amusement Cartridge. The function will persist after the MSX shutdown. You have to restart the MSX with the 'Restore' button pressed to go back to the ROM Browser.
 #### Scc only (no game)
-This function emulate a modified SCC cartridge where the SCC chip is fully working but there no game ROM with it. It usually used to run some homebrews which need a SCC chip.
+This function emulate a modified SCC cartridge where the SCC chip is fully working but there no game ROM with it. It usually used to run some homebrews which need a SCC chip. The function will persist after the MSX shutdown.
 #### 64kB RAM expansion
-This function emulate a 64kB RAM expansion for MSX 1 which has less than 64kB built-in RAM. It expands the MSX to 64kB RAM.
+This function emulate a 64kB RAM expansion for MSX 1 which has less than 64kB built-in RAM. It expands the MSX to 64kB RAM. The function will persist after the MSX shutdown.
 #### 128kB Mapped RAM expansion
-This function emulate a 128kB mapped RAM expansion. It adds 128kB RAM to the MSX as a mapped RAM.
+This function emulate a 128kB mapped RAM expansion. It adds 128kB RAM to the MSX as a mapped RAM. The function will persist after the MSX shutdown.
 #### Exit to BASIC
 Exit the ROM Browser and go to MSX Basic.
 ### Help screen
