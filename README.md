@@ -67,7 +67,7 @@ Here is some rom types supported by Easy Cartridge
 You can change the rom type if you think it's wrong by pressing the joystick button 1 or [Space] bar or left and right.
 #### Init Addr
 It's the rom start address. It's just for information.
-#### Start everytime and Start
+#### Start and Start everytime
 * Start : to start the game
 * Start everytime : to start the game but when you shutdown the MSX and restart it, the selected game will be automatically launch again. Easy Cartridge acts as it a simple cartridge game. To go back to the ROM Browser, you have to pressed the 'Restore' button on the top-right corner of the cartridge and keep it pressed while restarting the MSX.
 ### Options screen
