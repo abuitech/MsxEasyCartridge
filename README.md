@@ -8,12 +8,16 @@ It is based on a Rasberry Pi pico with 14Mo built in flash memory and is made as
   * Basic cartridge (cartridge written in MSX Basic)
   * Ascii 8 mapper cartridge
   * Ascii 16 mapper cartridge
-  * Konami 4 mapper cartridge
-  * Konami 5 mapper cartridge **with SCC emulation**
+  * Konami mapper cartridge
+  * Konami **with SCC emulation** mapper cartridge
+  * Konami Game Master 2 cartridge (with SRAM emulation using Easy Cartridge bilt-in flash memory)
+  * Ascii 8 SRAM mapper cartridge
+  * Ascii 16 SRAM mapper cartridge
 * 64Ko RAM extension
 * 128Ko Mapper RAM extension
 * SCC without ROM cartridge emulation
 * long file / directory name is supported
+**When using Konami Game Master 2, please wait a few second before shutting down or resetting the Msx to a allow the Easy Cartridge to save the SRAM on the flash memory.**
 ## Limitations
 * rom size is limited to 128Ko due to the limited available RAM of the Pico
 * only 14Mo flash memory available
@@ -59,11 +63,17 @@ To start the game you can select "Start" or "Start everytime"
 Easy Cartridge automatically detects the cartridge rom type and displays it.
 Here is some rom types supported by Easy Cartridge
 * Standard or linear 8/16/32Ko rom
-* ASCII8 : ASCII 8 mapper cartridge rom
-* ASCII16 : ASCII 16 mapper cartridge rom
-* Konami 4 : Konami without SCC cartridge rom
-* Konmai 5 : Konami with SCC cartridge rom
 * Basic : MSX Basic cartridge rom
+* ASCII 8 : ASCII 8 cartridge rom
+* ASCII 8 (SRAM) : ASCII 8 with SRAM cartridge rom
+* ASCII 16 : ASCII 16 cartridge rom
+* ASCII 16 (SRAM) : ASCII 16 with SRAM cartridge rom
+* ASCII 16 (Generic) : ASCII 16 Generic cartridge rom
+* Konami : Konami without SCC cartridge rom
+* Konmai SCC : Konami with SCC cartridge rom
+* Konami (Generic) : Konami Generic cartridge rom
+* GameMaster2 : Konami Game Master 2 cartridge rom (with SRAM emulation)
+* FMPAC : FMPAC rom (without YM2413 emulation)
 You can change the rom type if you think it's wrong by pressing the joystick button 1 or [Space] bar or left and right.
 #### Init Addr
 It's the rom start address. It's just for information.
@@ -73,13 +83,13 @@ It's the rom start address. It's just for information.
 ### Options screen
 ![Game launch screen](Images/RomBrowser/RomBrowser_AdvOptions.jpg)
 In this screen you can access to other functionalities of Easy Cartridges
-* FM Pana Amusement Cartridge
+* FM Pana Amusement Cartridge (*Note: work in progress, not fully working*)
 * Scc only (no game)
 * 64kB RAM expansion
 * 128kB Mapped RAM expansion
 * Exit to BASIC
 #### FM Pana Amusement Cartridge
-This function is under developpement and is not working.
+*This function is under developpement and is not fully working.*
 Easy Cartridge emulates the FM Pana Amusement Cartridge. The function will persist after the MSX shutdown. You have to restart the MSX with the 'Restore' button pressed to go back to the ROM Browser.
 #### Scc only (no game)
 This function emulate a modified SCC cartridge where the SCC chip is fully working but there no game ROM with it. It usually used to run some homebrews which need a SCC chip. The function will persist after the MSX shutdown.
@@ -92,4 +102,14 @@ Exit the ROM Browser and go to MSX Basic.
 ### Help screen
 ![Game launch screen](Images/RomBrowser/RomBrowser_Help.jpg)
 Help screen displays buttons and keys shortcuts.
+## Release changes
+### v 0.33
+* New mappers are supported :
+    * ASCII 8 (SRAM) : ASCII 8 with SRAM cartridge rom
+    * ASCII 16 (SRAM) : ASCII 16 with SRAM cartridge rom
+    * ASCII 16 (Generic) : ASCII 16 Generic cartridge rom
+    * Konami (Generic) : Konami Generic cartridge rom
+    * GameMaster2 : Konami Game Master 2 cartridge rom (with SRAM emulation)
+    * FMPAC : FMPAC rom (without YM2413 emulation)
+* Using a database (exported from BlueMSX database) to find the rom type.
 
