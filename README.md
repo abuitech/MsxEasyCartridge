@@ -2,6 +2,20 @@
 # MsxEasyCartridge (Work in progress)
 Msx Easy Cartridge is an user friendly cartridge linker for MSX : it allows to run MSX cartridge rom up to 128Ko.
 It is based on a Rasberry Pi pico with 14Mo built in flash memory and is made as easy to use with a built-in cartridges browser.
+## Release changes
+### v 0.34
+* Save Rom Browser configuration :
+    * the selected folder and rom file are save in to the configuration file.
+    * when the MSX restart, the Rom Browser will directly go to the proviously selected folder and select the previously selected rom file.
+### v 0.33
+* New mappers are supported :
+    * ASCII 8 (SRAM) : ASCII 8 with SRAM cartridge rom
+    * ASCII 16 (SRAM) : ASCII 16 with SRAM cartridge rom
+    * ASCII 16 (Generic) : ASCII 16 Generic cartridge rom
+    * Konami (Generic) : Konami Generic cartridge rom
+    * GameMaster2 : Konami Game Master 2 cartridge rom (with SRAM emulation)
+    * FMPAC : FMPAC rom (without YM2413 emulation)
+* Using a database (exported from BlueMSX database) to find the rom type.
 ## Functionalities
 * Run MSX cartridge - supported cartridge types :
   * Standard (or plain) cartridge from 8Ko to 64ko
@@ -102,19 +116,6 @@ Exit the ROM Browser and go to MSX Basic.
 ### Help screen
 ![Game launch screen](Images/RomBrowser/RomBrowser_Help.jpg)
 Help screen displays buttons and keys shortcuts.
-## Release changes
-### v 0.34
-* Save Rom Browser configuration :
-    * the selected folder and rom file are save in to the configuration file.
-    * when the MSX restart, the Rom Browser will directly go to the proviously selected folder and select the previously selected rom file.
-### v 0.33
-* New mappers are supported :
-    * ASCII 8 (SRAM) : ASCII 8 with SRAM cartridge rom
-    * ASCII 16 (SRAM) : ASCII 16 with SRAM cartridge rom
-    * ASCII 16 (Generic) : ASCII 16 Generic cartridge rom
-    * Konami (Generic) : Konami Generic cartridge rom
-    * GameMaster2 : Konami Game Master 2 cartridge rom (with SRAM emulation)
-    * FMPAC : FMPAC rom (without YM2413 emulation)
-* Using a database (exported from BlueMSX database) to find the rom type.
+
 
 
