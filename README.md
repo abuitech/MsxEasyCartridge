@@ -103,6 +103,10 @@ Exit the ROM Browser and go to MSX Basic.
 ![Game launch screen](Images/RomBrowser/RomBrowser_Help.jpg)
 Help screen displays buttons and keys shortcuts.
 ## Release changes
+### v 0.34
+* Save Rom Browser configuration :
+    * the selected folder and rom file are save in to the configuration file.
+    * when the MSX restart, the Rom Browser will directly go to the proviously selected folder and select the previously selected rom file.
 ### v 0.33
 * New mappers are supported :
     * ASCII 8 (SRAM) : ASCII 8 with SRAM cartridge rom
@@ -112,4 +116,5 @@ Help screen displays buttons and keys shortcuts.
     * GameMaster2 : Konami Game Master 2 cartridge rom (with SRAM emulation)
     * FMPAC : FMPAC rom (without YM2413 emulation)
 * Using a database (exported from BlueMSX database) to find the rom type.
+
 
